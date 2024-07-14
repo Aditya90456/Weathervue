@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;  
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+   background-size: contain;
+}
+.main{ 
+
+    display: flex;
+    justify-content: space-around;
+}
+.w{
+    padding: 26px 0px;
+}
+.w h1{
+    color: white;   
+    padding-top: 16px;
+    padding-left: 22px;
+    
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sec{
+    color: #fff;
+    
+}
+.inp{ 
+    justify-content: space-around;
+    padding-top:49px ;   
+    padding-left: 30px;
+}
+.inp input{
+    width: 280px;
+    height:26px; 
+    border: 3px white solid;
+    background-color: transparent;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 7px; 
+    text-align: center;
+      
+}
+.inp input::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+.btn{
+    padding-right: 33px;
+    padding-top: 43px;
+}
+.btn button{
+    width: 129px; 
+    height: 27px;
+    
+    color: #fff;
+    border-radius: 8px;
+    border: 2px white solid;
+    outline: none;
+background-color: #bebebe7a;
+
+
+}
+.btn button:hover{
+    cursor: pointer;
+}
+.containt{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.box{
+    width:79%;
+    height: 85%;
+    background-color: #1708e8;
+background-image: linear-gradient(147deg, #0704ba 0%, #000000 74%);
+ 
+
+}
+.time{
+    padding: 18px;
+
+}
+.tac{
+    display: flex;
+    justify-content: space-between;
+}
+.time h3{
+    color: #fff;
+    font-size: 18px;
+}
+.scc{
+    padding: 18px;
+
+}
+.nm{
+    color: #fff;
+    font-size: 18px;
+}
+.haze{
+    padding: 18px;
+}
+.hz{
+    color: #fff;
+    font-size: 18px;
+}
+.fc{  
+    height: 53%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.fc  h1{
+    color: #fff;
+    font-size: 83px;
+   
+}
+#o{
+    font-size: 6px;
+
+    padding-bottom: 22px;
+    margin-bottom: 44px;
+}
+.wh{
+    display: flex;
+    padding: 23px;
+    padding-top: 65px;
+    justify-content: space-between;
+}
+.wind{
+    padding-top: 44px;
+}
+.wind h3{
+    color: #fff;
+    font-size: 18px;
+}
+.hu h3{
+    color: #fff;
+    font-size: 18px;
+}
+.hu{
+    padding-top: 44px;
+}
+#o{
+    padding: 0; 
+    margin: 0; 
+    font-size: 44px;
+}
+@media (max-width:600px) {
+  
+    .main{
+
+        padding: 0;
+        margin: 0;
+        
+        display: block;
+        align-items: flex-start;
+
+    }
+    .w{  
+        
+    }
+    .w h1{
+        font-size: 15px;
+        text-align: center;
+    }
+    .inp{
+        padding: 17px 22%;
+     
+    }
+    .inp input{
+        font-size: 18px;
+        width: 265px;
+        
+    }
+    .inp input::placeholder{
+        font-size: 16px;
+    }
+.btn{
+    padding: 12px 35%;
+}
+}
+ 
